@@ -20,7 +20,7 @@ class Solution {
         $r = bcadd($this->getNumber($l1), $this->getNumber($l2));
         $c = strlen($r);
         $node = null;
-        for ($i=0; $i < $c; $i++) {
+        for ($i=0; $i < $c; $i++) { 
             $node = new ListNode($r[$i], $node);
         }
         return $node;
